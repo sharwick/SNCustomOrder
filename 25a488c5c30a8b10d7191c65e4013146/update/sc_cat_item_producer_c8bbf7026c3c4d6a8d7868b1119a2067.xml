@@ -8,7 +8,7 @@
         <can_cancel>false</can_cancel>
         <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
         <cc_render_type/>
-        <checked_out/>
+        <checked_out>false</checked_out>
         <cost/>
         <custom_cart/>
         <delivery_plan/>
@@ -75,8 +75,9 @@
         <sc_ic_version/>
         <sc_template/>
         <script><![CDATA[(function executeProducerScript(current, producer) {
-	gs.addInfoMessage("current.u_item: " + current.u_item + " | producer.u_item: " + producer.u_item);
-	current.u_item = producer.u_item;
+	//gs.addInfoMessage("current.u_item: " + current.u_item + " | producer.u_item: " + producer.u_item);
+	// When I changed the RP variable to u_item, it still only recognized "item". Maybe a DB issue on backend.
+	current.u_item = producer.item;
 	current.u_quantity = producer.u_quantity;
 	current.u_requested_by = gs.getUserID();
 	current.u_state = 'pending';  // pending approval
@@ -85,19 +86,19 @@
         <short_description>Submit a new order request</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state/>
+        <state>published</state>
         <sys_class_name>sc_cat_item_producer</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-11 03:13:57</sys_created_on>
         <sys_id>c8bbf7026c3c4d6a8d7868b1119a2067</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Request an Order</sys_name>
         <sys_package display_value="SNCustomOrder" source="x_1836523_sncust_0">25a488c5c30a8b10d7191c65e4013146</sys_package>
         <sys_policy/>
         <sys_scope display_value="SNCustomOrder">25a488c5c30a8b10d7191c65e4013146</sys_scope>
         <sys_update_name>sc_cat_item_producer_c8bbf7026c3c4d6a8d7868b1119a2067</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-11 03:26:16</sys_updated_on>
+        <sys_updated_on>2026-07-11 03:44:57</sys_updated_on>
         <table_name>x_1836523_sncust_0_order</table_name>
         <taxonomy_topic/>
         <template/>
@@ -105,7 +106,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>4</version>
+        <version>7</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
