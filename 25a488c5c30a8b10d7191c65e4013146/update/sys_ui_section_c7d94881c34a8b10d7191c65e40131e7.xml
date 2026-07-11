@@ -4,15 +4,57 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-07-11 02:34:52</sys_created_on>
-            <sys_id>cbd98881c34a8b10d7191c65e40131b3</sys_id>
+            <sys_created_on>2026-07-11 02:55:08</sys_created_on>
+            <sys_id>737ecc0dc34a8b10d7191c65e4013132</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1836523_sncust_0_fulfillment" sys_domain="global" view="Default view">c7d94881c34a8b10d7191c65e40131e7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-07-11 02:34:52</sys_updated_on>
+            <sys_updated_on>2026-07-11 02:55:08</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_order</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 02:55:08</sys_created_on>
+            <sys_id>ff7ecc0dc34a8b10d7191c65e4013132</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1836523_sncust_0_fulfillment" sys_domain="global" view="Default view">c7d94881c34a8b10d7191c65e40131e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 02:55:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 02:55:08</sys_created_on>
+            <sys_id>fb7ecc0dc34a8b10d7191c65e401314c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1836523_sncust_0_fulfillment" sys_domain="global" view="Default view">c7d94881c34a8b10d7191c65e40131e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 02:55:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 02:55:08</sys_created_on>
+            <sys_id>7b7ecc0dc34a8b10d7191c65e401314d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1836523_sncust_0_fulfillment" sys_domain="global" view="Default view">c7d94881c34a8b10d7191c65e40131e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 02:55:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Approval Info" section_id="be5e880dc34a8b10d7191c65e401315b" sys_domain="global" table="x_1836523_sncust_0_fulfillment" version="3" view="">
+        <sys_ui_section action="DELETE">
+            <caption>Approval Info</caption>
+            <header>false</header>
+            <name>x_1836523_sncust_0_fulfillment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-11 02:54:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be5e880dc34a8b10d7191c65e401315b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1836523_sncust_0_fulfillment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SNCustomOrder" source="x_1836523_sncust_0">25a488c5c30a8b10d7191c65e4013146</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SNCustomOrder">25a488c5c30a8b10d7191c65e4013146</sys_scope>
+            <sys_update_name>sys_ui_section_be5e880dc34a8b10d7191c65e401315b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-11 02:54:31</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNCustomOrder">25a488c5c30a8b10d7191c65e4013146</application>
+        <file_path/>
+        <instance_id>c87cda0edbb935d8b1eb9027c59619b4</instance_id>
+        <instance_name>dev183527</instance_name>
+        <name>sys_ui_section_be5e880dc34a8b10d7191c65e401315b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Approval Info" section_id="be5e880dc34a8b10d7191c65e401315b" sys_domain="global" table="x_1836523_sncust_0_fulfillment" version="3" view=""><sys_ui_section action="INSERT_OR_UPDATE"><caption>Approval Info</caption><header>false</header><name>x_1836523_sncust_0_fulfillment</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-11 02:54:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>be5e880dc34a8b10d7191c65e401315b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1836523_sncust_0_fulfillment</sys_name><sys_overrides/><sys_package display_value="SNCustomOrder" source="x_1836523_sncust_0">25a488c5c30a8b10d7191c65e4013146</sys_package><sys_policy/><sys_scope display_value="SNCustomOrder">25a488c5c30a8b10d7191c65e4013146</sys_scope><sys_update_name>sys_ui_section_be5e880dc34a8b10d7191c65e401315b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-11 02:54:31</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1174266456</payload_hash>
+        <record_name>Fulfillment</record_name>
+        <reverted_from/>
+        <source>06378841c3468b10d7191c65e4013199</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 02:55:50</sys_created_on>
+        <sys_id>4eae044dc34a8b10d7191c65e4013133</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f4f1a48010000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 02:55:50</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>0eae044d5d4a8b107843601faf673633</update_guid>
+        <update_guid_history>0eae044d5d4a8b107843601faf673633:-1174266456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-11 02:55:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>1169d4a0d01846c09a985cbbb0f97b10</sys_id>
+        <sys_metadata>be5e880dc34a8b10d7191c65e401315b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approval Info</sys_name>
+        <sys_package display_value="SNCustomOrder" source="x_1836523_sncust_0">25a488c5c30a8b10d7191c65e4013146</sys_package>
+        <sys_parent display_value="Fulfillment">66d98881c34a8b10d7191c65e4013117</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SNCustomOrder">25a488c5c30a8b10d7191c65e4013146</sys_scope>
+        <sys_scope_delete display_value="">2a645e9c7e2048389ce8eb3bb3cf8c84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_be5e880dc34a8b10d7191c65e401315b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_be5e880dc34a8b10d7191c65e401315b">4eae044dc34a8b10d7191c65e4013133</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-11 02:55:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
