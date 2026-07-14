@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="798169d18d1645e4992f4eb412c13d82" extends="sys_import_set_row" label="Order Import Staging" name="x_1836523_sncust_0_order_import" type="collection">
+        <element label="Item" max_length="255" name="u_item" type="string"/>
+        <element label="Status" max_length="40" name="u_status" type="string"/>
+        <element label="Quantity" max_length="40" name="u_qty" type="string"/>
+        <element label="Requester Email" max_length="100" name="u_requester_email" type="string"/>
+        <element label="Order Number" max_length="40" name="u_order_number" type="string"/>
+    </element>
+</database>

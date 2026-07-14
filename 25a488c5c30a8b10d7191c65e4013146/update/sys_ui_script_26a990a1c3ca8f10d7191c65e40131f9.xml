@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>test</description>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_1836523_sncust_0.OrderClientUtils</name>
+        <script><![CDATA[var OrderClientUtils = OrderClientUtils || {};
+
+  OrderClientUtils.warnIfOpenOrders = function(gForm, itemValue) {
+      var ga = new GlideAjax('x_..._orders.OrderAjaxUtils'); // scoped name!
+      ga.addParam('sysparm_name', 'getOpenOrderCount');
+      ga.addParam('sysparm_item', itemValue);
+      ga.getXMLAnswer(function(answer) {              // ASYNC — the only right way
+          var n = parseInt(answer, 10);
+          if (n > 0) {
+              gForm.showFieldMsg('item',
+                  n + ' open order(s) already exist for this item', 'warning');
+          }
+      });
+  };]]></script>
+        <script_name>OrderClientUtils</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-12 17:01:34</sys_created_on>
+        <sys_id>26a990a1c3ca8f10d7191c65e40131f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1836523_sncust_0.OrderClientUtils</sys_name>
+        <sys_package display_value="SNCustomOrder" source="x_1836523_sncust_0">25a488c5c30a8b10d7191c65e4013146</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNCustomOrder">25a488c5c30a8b10d7191c65e4013146</sys_scope>
+        <sys_update_name>sys_ui_script_26a990a1c3ca8f10d7191c65e40131f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-12 17:05:01</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>false</use_scoped_format>
+    </sys_ui_script>
+</record_update>
